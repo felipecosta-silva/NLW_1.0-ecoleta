@@ -9,7 +9,7 @@ class ItemsControllers {
       return {
         id: item.id,
         title: item.title,
-        image_url: `http://localhost:3333/uploads/${item.image}`,
+        image_url: `http://192.168.0.110:3333/uploads/${item.image}`, //Lembrar de trocar a URL para o endereço que deve retornar, foi trocado para '//192.168.0.108:/uploads' para poder utilizar no EXPO versão Mobile
       };
     });
     return response.json(serializedItems);

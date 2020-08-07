@@ -1,8 +1,8 @@
 import React from 'react';
-import {Route, BrowserRouter} from  'react-router-dom';
+import {Route, BrowserRouter} from 'react-router-dom';
 
 import Home from './pages/Home';
-import CreatePoint from './pages/CreateePoint';
+import CreatePoint from './pages/CreatePoint';
 
 
 const Routes = () => {
